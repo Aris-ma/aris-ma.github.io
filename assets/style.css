@@ -34,7 +34,7 @@ main section { scroll-margin-top: 22px; }
 .author { align-self: start; font-size: 14px; line-height: 1.5; }
 .portrait {
   display: block;
-  width: 210px;
+  width: 170px;
   max-width: 100%;
   height: auto;
   padding: 0;
@@ -44,7 +44,7 @@ main section { scroll-margin-top: 22px; }
   margin-bottom: 17px;
 }
 .author-name { margin: 0 0 8px; font-size: 20px; line-height: 1.4; font-weight: 700; }
-.author-name [lang] { display: block; white-space: nowrap; font-size: 1em; font-weight: 700; margin-top: 3px; }
+.author-name [lang] { display: inline; white-space: nowrap; font-size: .96em; font-weight: 700; margin-left: 6px; }
 .author-bio { margin: 0 0 17px; font-size: 14px; line-height: 1.55; }
 .author-links { margin: 0; padding: 0; list-style: none; font-size: 14px; }
 .author-links li { margin: 0 0 6px; }
@@ -90,8 +90,8 @@ main section + section { margin-top: 35px; }
 .skip-link:focus { top: 10px; }
 @media (min-width: 1400px) { body { font-size: 17px; } }
 @media (max-width: 1100px) {
-  .layout { grid-template-columns: 200px minmax(0, 1fr); gap: 35px; }
-  .portrait { width: 190px; height: auto; }
+  .layout { grid-template-columns: 190px minmax(0, 1fr); gap: 35px; }
+  .portrait { width: 160px; height: auto; }
   .author-name { font-size: 19px; }
 }
 @media (max-width: 800px) {
@@ -102,9 +102,9 @@ main section + section { margin-top: 35px; }
   .layout { display: block; padding: 25px 20px 35px; }
   .author { margin-bottom: 27px; }
   .author-heading { display: flex; align-items: center; gap: 19px; }
-  .portrait { width: 124px; height: auto; flex: 0 0 124px; margin: 0; padding: 0; }
-  .author-name { font-size: 19px; margin-bottom: 7px; }
-  .author-name [lang] { margin-top: 3px; font-size: 1em; font-weight: 700; }
+  .portrait { width: 104px; height: auto; flex: 0 0 104px; margin: 0; padding: 0; }
+  .author-name { font-size: 18px; margin-bottom: 7px; }
+  .author-name [lang] { margin-left: 5px; font-size: .95em; font-weight: 700; }
   .author-bio { font-size: 14px; line-height: 1.5; margin: 0; }
   .author-links { display: grid; grid-template-columns: max-content max-content; gap: 0 22px; margin-top: 15px; font-size: 14px; }
   .author-links li { margin: 0; }
@@ -126,8 +126,8 @@ main section + section { margin-top: 35px; }
 @media (max-width: 360px) {
   .layout, .masthead-inner { padding-left: 16px; padding-right: 16px; }
   .author-heading { gap: 14px; }
-  .portrait { width: 105px; height: auto; flex-basis: 105px; }
-  .author-name { font-size: 18px; }
+  .portrait { width: 92px; height: auto; flex-basis: 92px; }
+  .author-name { font-size: 17px; }
   .author-bio { font-size: 13px; }
   .author-links { gap: 0 12px; font-size: 13.5px; }
   .site-nav { gap: 8px; font-size: 12.5px; }
