@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://aris-ma.github.io/sitemap.xml
+Disallow: /assets/profile.jpg
+Disallow: /assets/wechat-qr.jpg
